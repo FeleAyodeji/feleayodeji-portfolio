@@ -1,7 +1,39 @@
-import React from "react";
-
 const HeroSection = () => {
-  return <div>HeroSection</div>;
+  return (
+    <div>
+      {" "}
+      <section className="bg-[#2B2B3C] text-white px-8 py-16">
+        <div className="flex items-center justify-between">
+          {/* Left Content - Text */}
+          <div className="w-1/2">
+            <h1 className="text-5xl font-bold font-montserrat leading-tight">
+              Fele Ayodeji <br /> Samuel
+            </h1>
+            <p className="mt-6 text-base font-poppins text-gray-300">
+              A Software Engineer passionate about building scalable web
+              applications that makes a difference and creating seamless user
+              experiences.
+            </p>
+            <a
+              href="#portfolio"
+              className="inline-flex items-center gap-2 text-[#BDBDFF] mt-6 font-medium font-poppins hover:underline"
+            >
+              View My Work
+            </a>
+          </div>
+
+          {/* Right Content - Image */}
+          <div className="w-1/2 flex justify-center">
+            <img
+              src={"assets/hero-image.png"}
+              alt="Fele Ayodeji Samuel"
+              className="w-[300px] h-[300px] object-cover rounded-full"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default HeroSection;
