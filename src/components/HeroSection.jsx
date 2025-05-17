@@ -1,3 +1,5 @@
+import heroImage from "../assets/hero-image.png"; // Adjust the path as necessary
+
 const HeroSection = () => {
   return (
     <div>
@@ -25,7 +27,7 @@ const HeroSection = () => {
           {/* Right Content - Image */}
           <div className="w-1/2 flex justify-center">
             <img
-              src={"assets/hero-image.png"}
+              src={heroImage}
               alt="Fele Ayodeji Samuel"
               className="w-[300px] h-[300px] object-cover rounded-full"
             />
