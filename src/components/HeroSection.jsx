@@ -1,11 +1,11 @@
-import heroImage from "../assets/hero-image.png"; // Adjust the path as necessary
+import heroImage from "../assets/hero_image.png"; // Adjust the path as necessary
 
 const HeroSection = () => {
   return (
     <div>
       {" "}
-      <section className="bg-[#2B2B3C] text-white px-8 py-16">
-        <div className="flex items-center justify-between">
+      <section className="bg-[#2B2B3C] text-white px-8 py-16 min-h-screen border-t-2 border-[#FAFAFA]">
+        <div className="flex items-center justify-between h-full">
           {/* Left Content - Text */}
           <div className="w-1/2">
             <h1 className="text-5xl font-bold font-montserrat leading-tight">

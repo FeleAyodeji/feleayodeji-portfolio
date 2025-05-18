@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
         <Link
           to="/portfolio"
-          className="font-poppins font-medium hover:text-[#BDBDFF] border-b-2 border-transparent hover:border-blue-[#BDBDFF]"
+          className="font-poppins font-medium hover:text-[#BDBDFF] border-b-2 border-transparent hover:border-[#BDBDFF]"
         >
           Portfolio
         </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Resume Button */}
       <div>
-        <button className="font-poppins font-normal px-4 py-2 border border-[] rounded hover:bg-[] hover:text-[] transition">
+        <button className="font-poppins font-normal px-4 py-2 border border-white rounded hover:border-[#BDBDFF] hover:text-[#BDBDFF] transition cursor-pointer">
           Resume
         </button>
       </div>
