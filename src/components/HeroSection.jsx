@@ -8,10 +8,10 @@ const HeroSection = () => {
         <div className="flex items-center justify-between h-full">
           {/* Left Content - Text */}
           <div className="w-1/2">
-            <h1 className="text-5xl font-bold font-montserrat leading-tight">
+            <h1 className="text-7xl font-bold font-montserrat leading-tight">
               Fele Ayodeji <br /> Samuel
             </h1>
-            <p className="mt-6 text-base font-poppins text-gray-300">
+            <p className="mt-8 text-xl  font-poppins text-gray-300">
               A Software Engineer passionate about building scalable web
               applications that makes a difference and creating seamless user
               experiences.
@@ -29,7 +29,7 @@ const HeroSection = () => {
             <img
               src={heroImage}
               alt="Fele Ayodeji Samuel"
-              className="w-[300px] h-[300px] object-cover rounded-full"
+              className="w-[450px] h-[450px] object-cover rounded-full"
             />
           </div>
         </div>
